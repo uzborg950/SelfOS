@@ -1,0 +1,69 @@
+{
+  "manifest_version": 3,
+  "name": "SelfOS",
+  "version": "1.0.0",
+  "description": "Personal context and identity layer for AI agents - micro-training through AI wait times",
+  
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "background"
+  ],
+  
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://claude.ai/*",
+    "https://gemini.google.com/*",
+    "https://github.com/*",
+    "https://www.notion.so/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://claude.ai/*",
+        "https://gemini.google.com/*",
+        "https://github.com/*",
+        "https://www.notion.so/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SelfOS - AI Micro-Training"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "popup.html",
+        "*.css"
+      ],
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://claude.ai/*",
+        "https://gemini.google.com/*",
+        "https://github.com/*",
+        "https://www.notion.so/*"
+      ]
+    }
+  ],
+  
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; frame-ancestors 'none';"
+  },
+  
+  "minimum_chrome_version": "90",
+  
+  "author": "SelfOS Team",
+  "homepage_url": "https://github.com/uzborg950/SelfOS"
+}

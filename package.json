@@ -1,0 +1,44 @@
+{
+  "name": "selfos",
+  "version": "1.0.0",
+  "description": "SelfOS - Personal context and identity layer for AI agents",
+  "private": true,
+  "workspaces": [
+    "packages/extension",
+    "packages/webapp"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=extension",
+    "build": "npm run build --workspace=extension",
+    "build:all": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces",
+    "lint:fix": "npm run lint:fix --workspaces",
+    "test": "npm run test --workspaces",
+    "clean": "npm run clean --workspaces && rm -rf node_modules",
+    "extension:dev": "npm run dev --workspace=extension",
+    "extension:build": "npm run build --workspace=extension",
+    "webapp:dev": "npm run dev --workspace=webapp",
+    "webapp:build": "npm run build --workspace=webapp"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uzborg950/SelfOS.git"
+  },
+  "author": "SelfOS Team",
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "browser-extension",
+    "personal-context",
+    "micro-training",
+    "knowledge-graph"
+  ]
+}

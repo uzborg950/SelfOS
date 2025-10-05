@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SelfOS Extension Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .selfos-button-primary {
+    @apply bg-selfos-primary text-white px-4 py-2 rounded-lg font-medium transition-all duration-200 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+  }
+  
+  .selfos-button-secondary {
+    @apply bg-gray-100 text-gray-700 px-4 py-2 rounded-lg font-medium transition-all duration-200 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2;
+  }
+  
+  .selfos-card {
+    @apply bg-white rounded-xl shadow-lg border border-gray-100 p-6;
+  }
+  
+  .selfos-overlay {
+    @apply fixed inset-0 bg-black bg-opacity-30 flex items-center justify-center z-50;
+  }
+  
+  .selfos-fade-in {
+    @apply animate-fade-in;
+  }
+  
+  .selfos-slide-up {
+    @apply animate-slide-up;
+  }
+}
+
+@layer utilities {
+  .text-selfos-primary {
+    color: #4A90E2;
+  }
+  
+  .border-selfos-primary {
+    border-color: #4A90E2;
+  }
+  
+  .bg-selfos-primary {
+    background-color: #4A90E2;
+  }
+}
