@@ -1,0 +1,28 @@
+<!-- SVG 05 — Companion Webapp: Settings & Integrations -->
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SelfOS settings and integrations">
+  <rect width="1000" height="700" fill="#f7f7f7"/>
+  <!-- Page shell -->
+  <rect x="40" y="30" width="920" height="640" rx="10" fill="#fff" stroke="#dcdcdc"/>
+  <text x="64" y="70" font-family="Inter, sans-serif" font-size="18" fill="#333">Integrations and Data</text>
+  <!-- Integration rows -->
+  <text x="64" y="110" font-family="Inter, sans-serif" font-size="14" fill="#555">Linked AIs</text>
+  <rect x="64" y="130" width="200" height="36" rx="6" fill="#4A90E2"/>
+  <text x="84" y="154" font-family="Inter, sans-serif" font-size="12" fill="#fff">ChatGPT ✓</text>
+  <rect x="280" y="130" width="200" height="36" rx="6" fill="#ededed"/>
+  <text x="300" y="154" font-family="Inter, sans-serif" font-size="12" fill="#333">Gemini — Connect</text>
+  <rect x="64" y="180" width="200" height="36" rx="6" fill="#ededed"/>
+  <text x="84" y="204" font-family="Inter, sans-serif" font-size="12" fill="#333">Copilot — Connect</text>
+  <!-- Data visibility -->
+  <text x="64" y="244" font-family="Inter, sans-serif" font-size="14" fill="#555">Data Visibility</text>
+  <rect x="64" y="264" width="120" height="36" rx="6" fill="#4A90E2"/>
+  <text x="84" y="288" font-family="Inter, sans-serif" font-size="12" fill="#fff">Full</text>
+  <rect x="196" y="264" width="120" height="36" rx="6" fill="#ededed"/>
+  <text x="216" y="288" font-family="Inter, sans-serif" font-size="12" fill="#333">Minimal</text>
+  <rect x="328" y="264" width="140" height="36" rx="6" fill="#ededed"/>
+  <text x="348" y="288" font-family="Inter, sans-serif" font-size="12" fill="#333">Manual</text>
+  <!-- Export / Delete -->
+  <rect x="64" y="330" width="140" height="36" rx="6" fill="#fff" stroke="#dcdcdc"/>
+  <text x="92" y="354" font-family="Inter, sans-serif" font-size="12" fill="#333">Export Data</text>
+  <rect x="220" y="330" width="140" height="36" rx="6" fill="#fff" stroke="#dcdcdc"/>
+  <text x="248" y="354" font-family="Inter, sans-serif" font-size="12" fill="#333">Delete Profile</text>
+</svg>

@@ -1,0 +1,27 @@
+<!-- SVG 03 — Companion Webapp: Home Dashboard -->
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SelfOS dashboard">
+  <rect width="1000" height="700" fill="#f7f7f7"/>
+  <!-- Header -->
+  <rect x="32" y="24" width="936" height="64" rx="8" fill="#fff" stroke="#dcdcdc"/>
+  <text x="56" y="64" font-family="Inter, sans-serif" font-size="20" fill="#4A90E2">SelfOS Dashboard</text>
+  <!-- Sidebar -->
+  <rect x="32" y="110" width="240" height="540" rx="8" fill="#fff" stroke="#dcdcdc"/>
+  <text x="56" y="150" font-family="Inter, sans-serif" font-size="14" fill="#333">Profile Snapshot</text>
+  <text x="56" y="180" font-family="Inter, sans-serif" font-size="12" fill="#555">Last sync: 2m ago</text>
+  <rect x="56" y="205" width="160" height="32" rx="6" fill="#4A90E2"/>
+  <text x="96" y="227" font-family="Inter, sans-serif" font-size="12" fill="#fff">Privacy: Full</text>
+  <!-- Main recent micro-trainings -->
+  <rect x="292" y="110" width="632" height="260" rx="8" fill="#fff" stroke="#dcdcdc"/>
+  <text x="312" y="148" font-family="Inter, sans-serif" font-size="14" fill="#333">Recent Micro-Trainings</text>
+  <rect x="312" y="170" width="568" height="40" rx="6" fill="#f4f6f8"/>
+  <text x="330" y="196" font-family="Inter, sans-serif" font-size="12" fill="#333">[Conciseness] — ChatGPT — 3m ago</text>
+  <rect x="312" y="220" width="568" height="40" rx="6" fill="#fff" stroke="#eee"/>
+  <text x="330" y="246" font-family="Inter, sans-serif" font-size="12" fill="#333">[Tone: professional] — Gmail — 9m ago</text>
+  <!-- AI Alignment Progress -->
+  <rect x="292" y="390" width="632" height="260" rx="8" fill="#fff" stroke="#dcdcdc"/>
+  <text x="312" y="428" font-family="Inter, sans-serif" font-size="14" fill="#333">AI Alignment Progress</text>
+  <rect x="312" y="450" width="520" height="18" rx="9" fill="#f4f6f8"/>
+  <rect x="312" y="450" width="312" height="18" rx="9" fill="#4A90E2"/>
+  <text x="840" y="466" font-family="Inter, sans-serif" font-size="12" fill="#555">Alignment: 62%</text>
+</svg>
+

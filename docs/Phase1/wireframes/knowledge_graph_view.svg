@@ -1,0 +1,26 @@
+<!-- SVG 04 — Companion Webapp: Knowledge Graph View -->
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SelfOS knowledge graph">
+  <rect width="1000" height="700" fill="#f7f7f7"/>
+  <!-- Central node -->
+  <circle cx="500" cy="320" r="56" fill="#4A90E2"/>
+  <text x="472" y="328" font-family="Inter, sans-serif" font-size="14" fill="#fff">You</text>
+  <!-- Surrounding nodes -->
+  <circle cx="700" cy="170" r="34" fill="#ededed"/>
+  <text x="680" y="176" font-family="Inter, sans-serif" font-size="12" fill="#333">Tone</text>
+  <circle cx="300" cy="170" r="34" fill="#ededed"/>
+  <text x="280" y="176" font-family="Inter, sans-serif" font-size="12" fill="#333">Focus</text>
+  <circle cx="320" cy="500" r="34" fill="#ededed"/>
+  <text x="300" y="506" font-family="Inter, sans-serif" font-size="12" fill="#333">Habits</text>
+  <circle cx="680" cy="520" r="34" fill="#ededed"/>
+  <text x="660" y="526" font-family="Inter, sans-serif" font-size="12" fill="#333">Emotion</text>
+  <!-- Connections -->
+  <line x1="540" y1="320" x2="680" y2="180" stroke="#cfcfcf" stroke-width="2"/>
+  <line x1="460" y1="320" x2="320" y2="180" stroke="#cfcfcf" stroke-width="3"/>
+  <line x1="420" y1="360" x2="330" y2="500" stroke="#cfcfcf" stroke-width="1.5"/>
+  <line x1="560" y1="360" x2="650" y2="520" stroke="#cfcfcf" stroke-width="2.5"/>
+  <!-- Detail panel -->
+  <rect x="760" y="110" width="200" height="420" rx="8" fill="#fff" stroke="#dcdcdc"/>
+  <text x="780" y="140" font-family="Inter, sans-serif" font-size="13" fill="#333">Node details</text>
+  <text x="780" y="170" font-family="Inter, sans-serif" font-size="12" fill="#555">Hover a node to see contributing micro-trainings.</text>
+</svg>
+

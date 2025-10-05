@@ -1,0 +1,15 @@
+<!-- SVG 02 — AI-Result Handoff -->
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SelfOS result handoff">
+  <rect width="800" height="500" fill="#f7f7f7"/>
+  <rect x="220" y="150" width="360" height="160" rx="12" fill="#fff" stroke="#dcdcdc"/>
+  <!-- Check -->
+  <circle cx="260" cy="210" r="20" fill="#4A90E2"/>
+  <text x="252" y="216" font-family="Inter, sans-serif" font-size="16" fill="#fff">✓</text>
+  <!-- Confirmation copy -->
+  <text x="300" y="200" font-family="Inter, sans-serif" font-size="16" fill="#333">AI task completed</text>
+  <text x="300" y="230" font-family="Inter, sans-serif" font-size="13" fill="#555">Preference saved — your AI now aligns with concise tone.</text>
+  <!-- Action -->
+  <rect x="440" y="270" width="100" height="36" rx="8" fill="#4A90E2"/>
+  <text x="470" y="294" font-family="Inter, sans-serif" font-size="14" fill="#fff">Got it</text>
+</svg>
+
